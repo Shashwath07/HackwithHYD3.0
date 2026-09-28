@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>Customer Support</h1>
+      <label class="id-field">
+        Customer ID
+        <input id="customer-id" type="text" placeholder="e.g. C1001" autocomplete="off">
+      </label>
+    </header>
+
+    <section id="chat" class="chat" aria-live="polite">
+      <p class="empty">Enter your customer ID, then describe your issue. Come back anytime and we'll pick up where you left off.</p>
+    </section>
+
+    <p id="error" class="error" role="alert" hidden></p>
+
+    <form id="chat-form" class="composer">
+      <input id="message" type="text" placeholder="How can we help?" autocomplete="off" maxlength="1000">
+      <button id="send" type="submit">Send message</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

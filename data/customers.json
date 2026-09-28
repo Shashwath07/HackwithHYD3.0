@@ -1,0 +1,7 @@
+{
+  "customers": [
+    {"id": "C1001", "name": "Aarav Sharma", "plan": "Premium"},
+    {"id": "C1002", "name": "Priya Reddy", "plan": "Standard"},
+    {"id": "C1003", "name": "Rahul Verma", "plan": "Basic"}
+  ]
+}
